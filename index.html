@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <style>
+       #orderitems{
+           width:94%;
+           margin:auto;
+           display:grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-rows: repeat(3,1fr);
+           gap:20px;
+       }
+       #orderitems p{
+         text-align:right;
+       }
+       
+       #orderitems img{
+            width:100%;
+            height:300px;
+       }
+       body>h2{
+           text-align:center;
+           color:teal;
+       }
+       body>div{
+           width:96%;
+           margin:auto;
+           display:grid;
+           grid-template-columns: repeat(3,1fr);
+           gap:20px;
+
+       }
+       #orderbutton{
+           display:flex;
+           justify-content:center;
+           margin-top:30px;
+       }
+       #orderbutton>button{
+           padding:10px;
+           font:arial;
+           background-color:teal;
+           color:white;
+       }
+    </style>
+</head>
+<body>
+    <h2 id="heading">Orders your favourite dishes</h2>
+    <div id="orderitems">
+        <div id="item1">
+            <img src="https://b.zmtcdn.com/data/pictures/9/19221879/3017fab701b6b6aa801e2ca53784f7da.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox" checked >
+        </div>
+        <div id="item2">
+            <img src="https://b.zmtcdn.com/data/pictures/8/18138658/e01ffc3a4d1f4a76e63b3250299f4793.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item3">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/3/19567803/f5115beefc770ed6c60be7a3ebc2538b.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item4">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/6/18441086/3fb75a7cf6328dc2a77bf959cf4c999a.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item5">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/9/90889/75f62c8a645011fc859419404b82d678.jpg?output-format=webp" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item6">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/9/90889/18b1c5fb7d4d38da355b57a4c8b33a91.jpg?output-format=webp" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item7">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/8/18514668/35d2311e700262cbf9b6e84703b2d3f8.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item8">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/8/90038/fcf8076b322d48db8c19a2751acc3520_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+        <div id="item9">
+            <img src="https://b.zmtcdn.com/data/pictures/6/19192896/32c49672a3a2e8e65b0bacac65821369.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            <input type="checkbox">
+        </div>
+    </div>
+    <div id="orderbutton">
+        <button >Order food</button>
+    </div>
+   
+</body>
+<script src="index.js"></script>
+</html>
